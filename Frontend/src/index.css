@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@import "@fontsource/source-sans-3/400.css";
+@import "@fontsource/source-sans-3/600.css";
+
+@theme {
+  /* Core backgrounds */
+  --color-bg: #ffffff;
+  --color-surface: #f5f7f9;
+
+  /* Borders & dividers */
+  --color-border: #d6dce2;
+
+  /* Text */
+  --color-text-primary: #1f2933;
+  --color-text-secondary: #4b5563;
+  --color-text-disabled: #9ca3af;
+--color-primary: #0f4c81;       /* Medical / government blue */
+--color-primary-hover: #0b3a63;
+
+  /* Fonts */
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+}
+
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
