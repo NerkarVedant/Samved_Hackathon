@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class HackathonApplication {
+public class   HackathonApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World");
