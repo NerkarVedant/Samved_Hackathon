@@ -10,6 +10,7 @@ public class   HackathonApplication {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		SpringApplication.run(HackathonApplication.class, args);
+		System.out.println("Hello, world!");
 	}
 
 
